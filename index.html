@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved @Ittyanm 2017/01/05 -->
+<!-- ↓↓↓ rule ↓↓↓
+  コメントアウトでつーぶろがちなに覚えておいて欲しいところをまとめるので覚えてね
+↑↑↑ rule ↑↑↑ -->
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>留学イベント情報サイト</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="stylesheet" href="./css/slider-pro.min.css">
+  <link rel='stylesheet' href='://fonts.googleapis.com/css?family=Oswald' type='text/css'>
+  <script src="./js/jquery.min.js"></script>
+  <script src="://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="./js/jquery.sliderPro.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+      $('#example2').sliderPro({
+        width: 800,
+        height: 600,
+        aspectRatio: 2,
+        visibleSize: '100%',
+        imageScaleMode: 'contain',
+        forceSize: 'fullWidth'
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h2>留学イベント情報サイト</h2>
+    <div id="example2" class="slider-pro">
+      <div class="sp-slides">
+        <div class="sp-slide">
+          <!-- ↓↓↓ slide showの写真1枚目 ↓↓↓ -->
+          <a href="#">
+            <img class="sp-image" src="./img/kenjyaya02.png" alt="">
+          </a>
+          <!-- ↑↑↑ <a href="#"←にhref="./pages/home.html"と書けば写真をクリックするとhome.htmlにとぶことができます>...</a> ↑↑↑ -->
+          <!-- ↓↓↓ slide showの写真1枚目の下に出てくる黒色の文字 ↓↓↓ -->
+          <p class="sp-caption">DEMO2 Slider Pro slide1</p>
+          <!-- ↑↑↑ ここもずっとこのままでは変だから。「説明会詳細」みたいな見出しに変えておきましょう ↑↑↑ -->
+        </div>
+        <div class="sp-slide">
+          <a href="#">
+            <img class="sp-image" src="./img/englishac.jpg" alt="">
+          </a>
+          <p class="sp-caption">DEMO2 Slider Pro slide2</p>
+        </div>
+        <div class="sp-slide">
+          <a href="#">
+            <img class="sp-image" src="./img/IMG_6708.jpg" alt="">
+          </a>
+          <p class="sp-caption">DEMO2 Slider Pro slide3</p>
+        </div>
+        <div class="sp-slide">
+          <a href="#">
+            <img class="sp-image" src="./img/IMG_6720.jpg" alt="">
+          </a>
+          <p class="sp-caption">DEMO2 Slider Pro slide4</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2 class="title"><span class="square">■</span>About</h2>
+    <p>こんにちは！
+      <p>トビタテ留学生によるイベント紹介サイトです。</p>
+      <p>留学したいなあ、でも留学って高いなあ、語学大丈夫かなあ、 などの悩みを持っている方が多くいらっしゃると思います。</p>
+      <p>トビタテ生でいろんな分野で留学した高校生がするイベント情報を集めたので、ぜひ活用してください！</p>
+  </section>
+  <section class="photo">
+    <h2 class="title"><span class="square">■</span>Photo Gallery</h2>
+    <p>⭐️分野説明⭐️</p>
+    <div class="professional">
+      <p>プロフェッショナル</p>
+      <img src="./img/yaidu.jpg" width="200" alt="">
+
+      <img src="./img/volunteer.png" width="200" alt="">
+    </div>
+
+    <div class="volunteer">
+      <p>ボランティア</p>
+      <img src="./img/seaturtle.png" width="300" alt="">
+      <img src="./img/IMG_6734.jpg" width="200" alt="">
+    </div>
+    <div class="academic">
+      <p>アカデミックテイクオフ</p>
+      <img src="./img/culture.png" width="300" alt="">
+      <img src="./img/IMG_6716.jpg" width="350" alt="">
+    </div>
+  </section>
+
+  <section class="information">
+    <h2 class="title">
+    <span class="square">■</span>Information</h2>
+    <div>
+      <h3> トビタテ留学JAPAN!</h3>
+      <h4>高校生報告会・説明会</h4>
+      <img src="img/kenjyaya02.png" width="500" alt="">
+      <a href="./pages/home.html" class="btn" target="_blank">詳しくはこちら</a>
+    </div>
+  </section>
+  <footer>&copy; 2016 Events</footer>
+</body>
+
+</html>

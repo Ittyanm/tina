@@ -1,0 +1,85 @@
+/* saved @Ittyanm 2017/01/05 */
+
+
+/* ↓↓↓ rule ↓↓↓
+  コメントアウトでつーぶろがちなに覚えておいて欲しいところをまとめるので覚えてね
+↑↑↑ rule ↑↑↑ */
+
+
+/* ↓↓↓ reset css ↓↓↓ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0ffff;
+  font-family: 'Microsoft Sans Serif';
+}
+
+.title {
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: 'Microsoft Sans Serif';
+  text-align: center;
+}
+.box{
+    width: auto;
+    height: 450px;
+}
+.box img{
+      float: left;
+}
+h1 {
+  font-size: 60px;
+  font-family: 'Microsoft Sans Serif';
+  color: #8b4513;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  font-size: 80px;
+  font-family: 'Microsoft Sans Serif';
+  color: 8b4513;
+  text-shadow: 1px 1px 2px black;
+  text-align: center center;
+  line-height: 0.8;
+}
+
+#p1 img {
+  float: right;
+}
+
+#p1 {
+  margin-right: 0px;
+}
+
+#p2 strong: {
+  color: mediumblue;
+}
+
+#p2 {
+  font-size: 30px;
+  color: black;
+  font-family: 'Microsoft Sans Serif';
+  margin-left: 10px
+}
+
+
+#p3 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Microsoft Sans Serif';
+}
+
+footer {
+  background-color: #8b4513;
+  color: white;
+  height: 40px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
